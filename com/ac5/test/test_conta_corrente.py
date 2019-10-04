@@ -9,4 +9,3 @@ def test_saque():
     conta = Conta_Corrente(20, 'Thiago', 5)
     conta.saque(5)
     assert conta.saldo == 0
-
