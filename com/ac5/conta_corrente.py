@@ -5,7 +5,7 @@ class Conta_Corrente:
         self.alterar_Nome(nome_Correntista)
         self.saldo = saldo
 
-    def alterarNome(self, nome_Correntista):
+    def alterar_Nome(self, nome_Correntista):
         self.nome_Correntista = nome_Correntista
 
     def deposito(self, valor):
