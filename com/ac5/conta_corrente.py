@@ -1,15 +1,19 @@
-class Conta_Corrente:
+class conta_corrente:
 
-    def __init__(self, numero, nome_Correntista, saldo=0.0):
+    def __init__(self, numero, nome_correntista, saldo=0.0):
+        '''Esta funçao define a conta'''
         self.numero = numero
-        self.alterar_Nome(nome_Correntista)
+        self.alterar_nome(nome_correntista)
         self.saldo = saldo
 
-    def alterar_Nome(self, nome_Correntista):
-        self.nome_Correntista = nome_Correntista
+    def alterar_nome(self, nome_correntista):
+        '''Esta funçao define o nome'''
+        self.nome_Correntista = nome_correntista
 
     def deposito(self, valor):
+        '''Esta funçao define o deposito'''
         self.saldo += valor
 
     def saque(self, valor):
+        '''Esta funçao define o saque'''
         self.saldo -= valor
