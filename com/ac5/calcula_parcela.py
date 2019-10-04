@@ -1,5 +1,7 @@
 def valor_pagamento(valor, dias_atraso):
-
+    """
+    Esta função calcula algo daora.
+    """
     if valor < 0:
         return None
     if dias_atraso > 0:
