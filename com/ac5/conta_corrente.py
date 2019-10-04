@@ -10,9 +10,7 @@ class conta_corrente:
         self.nome_correntista = nome_correntista
 
     def deposito(self, valor):
-        '''Esta funçao define o deposito'''
         self.saldo += valor
 
     def saque(self, valor):
-        '''Esta funçao define o saque'''
         self.saldo -= valor
