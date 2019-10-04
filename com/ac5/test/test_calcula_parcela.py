@@ -1,4 +1,3 @@
-import pytest
 from com.ac5.calcula_parcela import valorPagamento
 
 def test_valorCerto():
