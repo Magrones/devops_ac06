@@ -8,7 +8,7 @@ class conta_corrente:
 
     def alterar_nome(self, nome_correntista):
         '''Esta funçao define o nome'''
-        self.nome_Correntista = nome_correntista
+        self.nome_correntista = nome_correntista
 
     def deposito(self, valor):
         '''Esta funçao define o deposito'''
