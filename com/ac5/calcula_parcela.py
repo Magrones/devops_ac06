@@ -1,3 +1,4 @@
+"""Isso faz algo legal"""
 def valor_pagamento(valor, dias_atraso):
     """
     Esta função calcula algo daora.
