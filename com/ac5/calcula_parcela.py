@@ -1,5 +1,6 @@
 """Isso faz algo legal"""
 def valor_pagamento(valor, dias_atraso):
+    """Qualquer coisa"""
     if valor < 0:
         return None
     if dias_atraso > 0:
