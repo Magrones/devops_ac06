@@ -7,7 +7,6 @@ class conta_corrente:
         self.saldo = saldo
 
     def alterar_nome(self, nome_correntista):
-        '''Esta funçao define o nome'''
         self.nome_correntista = nome_correntista
 
     def deposito(self, valor):
