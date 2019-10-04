@@ -1,3 +1,4 @@
+'''Este arquivo tem funções de conta corrente"
 class conta_corrente:
 
     def __init__(self, numero, nome_correntista, saldo=0.0):
