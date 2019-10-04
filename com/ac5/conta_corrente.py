@@ -1,6 +1,6 @@
 '''Este arquivo tem funções de conta corrente'''
-class conta_corrente:
-
+class ContaCorrente:
+    ''' CLASSE CONTA CORRENTE'''
     def __init__(self, numero, nome_correntista, saldo=0.0):
         '''Conta corrente'''
         self.numero = numero
