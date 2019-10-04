@@ -1,8 +1,7 @@
-import pytest
 from com.ac5.cvHora import converteHora
 
 
-def test_convertHora():
+def test_converteHora():
     assert converteHora(20, 50) == '08:50 PM', ("O resultado tem que ser 08:50 PM")
     assert converteHora(60, 70) == None, ("O resultado tem que ser None")
     assert converteHora(11, 30) == '11:30 AM', ("O resultado tem que ser 11:30 AM")
