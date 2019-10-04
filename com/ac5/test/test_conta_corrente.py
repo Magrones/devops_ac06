@@ -1,4 +1,3 @@
-import pytest 
 from com.ac5.conta_corrente import ContaCorrente
 
 def test_dep():
