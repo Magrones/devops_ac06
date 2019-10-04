@@ -1,4 +1,4 @@
-def cvhora(hora, minuto):
+def cv_hora(hora, minuto):
     if hora > 23 or hora < 0 or minuto < 0 or minuto > 59:
         return "Nenhum"
     if hora < 12:
